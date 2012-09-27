@@ -1,4 +1,3 @@
-snippets
-========
+# Blink Platform snippets
 
-snippets
+snippets for use with the Blink Platform
