@@ -59,7 +59,7 @@ function getQsParameterByName(name) {
 
 This script should redirect most mobile and table devices. An IF statement can be uncommented and edited to target specific pages only, such as the home page. Code can be uncommented to show a javascript confirm() box asking if they wish to be redirected. A session cookie is used and will reset when they close their browser.
 
-I have bolded the main piece of logic. It matches screens that are less that 800 (so most mobile devices, inc. iPad, iPhone, etc.) and all android devices. 1 problem with this is that it will match android TVs and some day there may be Android desktop / laptops, but we can worry about that then. Also, it might not match non-Android or iPad tablets, but who cares about them.
+I have bolded the main piece of logic. It matches screens that are less that 800 (so most mobile devices, inc. iPad, iPhone, etc.) and all android devices. 1 problem with this is that it will match android TVs and some day there may be Android desktop / laptops, but we can worry about that then. 
 
 I have added this code to our website. You can see it in action at:
 
