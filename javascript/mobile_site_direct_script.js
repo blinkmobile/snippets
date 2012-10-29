@@ -13,7 +13,7 @@ if (screen.width < 800 || (navigator.userAgent.match(/android/i)) ) {
         if (desktop == "1") {
             document.cookie = "desktop=1";
         } else if (desktop == "0") {
-            document.cookie = "desktop =0";
+            document.cookie = "desktop=0";
             doRedirect=true;
         } else {
             if (getCookie("desktop") != "1") {
