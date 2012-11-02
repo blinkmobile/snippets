@@ -1,5 +1,7 @@
 /**
- * NOTE: this will only work in Weekly 2012.45 or later.
+ * NOTE:
+ * - formSubmitSuccess and formSubmitError were added in Weekly 2012.35
+ * - event.Blink was added in Weekly 2012.45
  * Check the footer at /admin to see which version you are using.
  */
 
@@ -30,7 +32,7 @@ $(document).ready(function() {
      */
   });
 
-  $doc.on('formSubmitFail', function(event) {
+  $doc.on('formSubmitError', function(event) {
     /* see formSubmitSuccess example above */
   });
 });
