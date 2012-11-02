@@ -1,4 +1,9 @@
 /**
+ * NOTE: this will only work in Weekly 2012.45 or later.
+ * Check the footer at /admin to see which version you are using.
+ */
+
+/**
  * This code is an example of how you might bind our form submission events.
  * This is probably best combined with the externalJavaScript example found
  * here: https://github.com/blinkmobile/snippets/blob/master/madl/host-external-javascript.php
