@@ -15,6 +15,8 @@ $(document).on('formReady', function() {
 /* insert code to run after a form has been rendered, populated, and inserted into the page */
 });
 
+/* for more details on form events, see: javascript/forms-submission-events.js */
+
 $(document).on('formSubmitSuccess', function() {
 // this: not explicitly declared for this event
 /* insert code to run after a successful submission */
