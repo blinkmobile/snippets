@@ -1,0 +1,10 @@
+/* STYLE FOR CAMERA BUTTON THAT IS DISPLAYED WITHIN APP SHELLS 
+   Use this to create a custom styling for the camera button
+*/
+
+
+input[data-action="camera"] {
+
+   /*style goes here*/
+
+}
